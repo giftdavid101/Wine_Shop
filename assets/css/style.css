@@ -1,5 +1,5 @@
 *{ 
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
    margin: 0;
     
 }
@@ -138,8 +138,12 @@ ul, .fnl,li{
     justify-content: center;
     align-items: center;
     height: 100%;
-}
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
+}
 @media screen and (max-width:700px){
     .wine_position{
         display: none;
