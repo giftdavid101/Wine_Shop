@@ -1,93 +1,130 @@
 *{ 
     /* outline: 1px solid red; */
-     margin: 0;
-     
-}
-
-.main{
-    width: 100%;
-    height:50rem ;
-    background-image: linear-gradient(rgba(95, 93, 88, 0.137), rgba(110, 95, 95, 0.068)),url(../img/two.jpg);
-    background-size: cover;
-    position: relative;
-    background-color: gray;
-    animation: slide 8s infinite;
+   margin: 0;
     
 }
+
+
+.main{
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(95, 93, 88, 0.137), rgba(110, 95, 95, 0.068)),url(../img/two.jpg);
+    background-size: cover;
+    background-color: gray;
+    animation: slide 8s infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+.middle{
+    width: 100%;
+    position: relative;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    
+  
+}
 .nav{
-    width: 90%;
-   margin: auto;
+  width: 100%;
    display: flex;
    justify-content: space-between;
-   align-content: center;
+   align-items: center;
    color: white;
    text-transform: uppercase;
 }
 
 
 
-ul ,.fnl ,li{
+ul ,.fnl,li{
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 3px;
     font-weight: bold;
-    margin: 10px 0;
     list-style: none;
-    width: 80%;
     color: white;
     text-decoration: none;
   
 }
+li{
+    margin: 2rem;
+}
 .logo{
-    margin: 10px 0;
+    margin: 2rem 0;
     letter-spacing: 5px;
     font-family: 'Josefin Sans', sans-serif;
 
 }
 .menu{
-    width: 9%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 30px 0;
+  
     font-size: 15px;
     letter-spacing: 4px;
     font-family: 'Comic Neue', cursive;
     font-weight: 0;
     
 }
+.middle{
+    width: 100%;
+    color: rgb(216, 215, 213);
+  display: flex;
+  justify-content:space-between ;
+}
 
-.list{
-    width:40%;
-}
-hr{
-    width: 20%;
-    height: 1px;
-    text-align: center;
-    background-color: white;
-    margin: 0 10px;
-}
-.smell{
-    width: 10%;
-    position: absolute;
-    bottom: 400px;
-    color: white;
-    font-size: 20px;
-    transform: rotate(270deg);
+.smel{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-.mid_text{
-    width: 60vw;
-    position: absolute;
-    margin:0 auto;
-    line-height: 0.8;
-    bottom: 300px;
-    right: 100px;
+    line-height: 4;
    
+  
+   
+}
+
+.smell{
+  
+   transform: rotate(270deg);
+   
+}
+.slidedot{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+  
+
+
+}
+.shortline{
+    width: 1px;
+    height: 20px;
+    background-color: white; 
+  
+}
+.dot{
+    width: 4px;
+    height:4px;
+    background-color: white;
+    margin: 16px;
+}
+
+.mid_text{
+    width: 60%;
+    line-height: 0.8;
+    margin: auto;
+    
 }
 .wine{
     color: lightblue;
@@ -109,34 +146,49 @@ hr{
     font-family: 'Caudex', serif;
     font-weight: lighter;
 }
-.contact{
-    position: absolute;
-    bottom: 10px;
-    color: white;
-    margin: 0 30px;
 
-}
-
-.bottomline{
-    width:50px;
-    
-}
-
-
-.explore{
+.foot{
     width: 100%;
-   
-    /* position: absolute; */
-    /* bottom: 0; */
-    color: white;
-    /* right: 600px; */
-    /* transform: rotate(270deg); */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(216, 215, 213);
+    font-family: 'Josefin Sans', sans-serif;
 }
-.explore-inner{
+.cw{
+  border: 1px solid white;
+  font-size: larger;
+  padding: 0.7rem;
+}
+
+.exploremore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5;
+}
+ 
+.line{
+    width: 1px;
+    height: 80px;
+    background-color: white;
+
+}
+.em{
+    transform: rotate(270deg);
+}
+
+
+    /* transform: rotate(270deg); */
+
+
+
+
+
+
+/* .explore-inner{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +198,7 @@ bottom: 95px;
 width: 14%;
 right: 600px;
 
-}
+} */
 
 .w{
     background-color: transparent;
