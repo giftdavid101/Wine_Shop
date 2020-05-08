@@ -79,6 +79,7 @@ li{
     color: rgb(216, 215, 213);
   display: flex;
   justify-content:space-between ;
+  position: relative;
 }
 
 .smel{
@@ -123,7 +124,8 @@ li{
 .mid_text{
     width: 60%;
     line-height: 0.8;
-    margin: auto;
+    
+    margin: 0;
     
 }
 .wine{
