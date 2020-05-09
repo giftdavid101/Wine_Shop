@@ -13,7 +13,6 @@ html, body {
 
 
 .main{
-    
     height: 100vh;
     background-image: linear-gradient(rgba(95, 93, 88, 0.137), rgba(110, 95, 95, 0.068)),url(../img/two.jpg);
     background-size: cover;
@@ -23,8 +22,21 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-    
 }
+
+.mobile-menu{
+    display: none;
+}
+
+.mobile-menu-icon {
+    color: white;
+}
+
+.mobile-menu-icon ion-icon {
+    color: white;
+    --ionicon-stroke-width: 16px;
+    --ionicon-stroke: #fff;
+  }
 
 .middle{
     width: 100%;
@@ -127,6 +139,10 @@ ul, .fnl,li{
     margin: 0 16px;
 }
 
+.foot .slide-container {
+    display: none;
+}
+
 .dot_active {
     width: 15px;
 }
@@ -145,10 +161,27 @@ ul, .fnl,li{
 
 }
 @media screen and (max-width:700px){
-    .wine_position{
+    .wine_position, .menu, .list, .middle, .cu {
         display: none;
     }
+
+    .mobile-menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .foot {
+        flex-direction: column-reverse;
+        height: 70%;
+    }
+
+    .foot .slide-container {
+        display: block;
+    }
 }
+
+
 
 .mid_text{
     /* width: 60%; */
