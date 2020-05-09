@@ -323,6 +323,7 @@ right: 600px;
     width: 100%;
    background-color:transparent;
    display: flex;
+   justify-content: space-around;
 }
 .aside{
     width: 25%;
@@ -334,7 +335,7 @@ right: 600px;
     width: 85%;
     margin-top: 30px;
     background-color: transparent;
-    margin: auto;
+    
     
 }
 .sub1{
@@ -348,7 +349,7 @@ right: 600px;
     width: 28%;
     height: 1.2rem;
     border: 2px solid white;
-    margin:12px ;
+    margin: 5px;
     padding: 5px 0;
     text-align: center;
     color: rgb(216, 215, 213);
@@ -375,7 +376,7 @@ right: 600px;
  font-family: 'Montserrat', sans-serif;
  letter-spacing: 3px;
  font-weight: lighter;
- margin-left: 5px;
+ 
 
 }
 .sub2{
@@ -411,15 +412,14 @@ margin-top: 30px;
 }
 
 .capss{
-    margin-left: 70px;
+   
     width: 30%;
  text-transform: uppercase;
- margin-top: 15px;
- margin-bottom:5px;
  letter-spacing: 2px;
  color: rgb(216, 215, 213);
  font-family :'Montserrat', sans-serif;
  letter-spacing: 3px;
+ font-size: 12px;
  font-weight: lighter;
 }
 .heading{
@@ -429,15 +429,28 @@ margin-top: 30px;
   
 
 }
+.capse{
+    width: 100%;
+    text-transform: uppercase;
+    
+    margin-bottom:15px;
+    letter-spacing: 2px;
+    color: rgb(216, 215, 213);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-left: 5px;
+}
 .sub-head{
 width: 35%;
 text-transform: uppercase;
 display: flex;
-align-items: center;
+justify-content: space-between;
 }
 .card-box{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+  
 }
 .card{
 
@@ -446,16 +459,43 @@ align-items: center;
     position: relative;
  
 }
+.pnk{
+    
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    background-color: rgb(223, 144, 157);
+    font-family:'Nanum Gothic', 'sans-serif';
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    top:  100px;
+
+}
+.gry{
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    background-color: rgb(182, 162, 165);
+    font-family:'Nanum Gothic', 'sans-serif';
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    top:  100px;
+  
+}
 .mid-color{
    width: 100%;
    height: 5rem;
+   position: absolute;
  background-color: rgb(145, 20, 50);   
  position: absolute;
 
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
+top:  100px;
+/* top: 0; */
+/* right: 0; */
+/* bottom:0; */
+/* left: 0; */
 
 
 }
@@ -474,14 +514,17 @@ left: 0;
 }
 .image-div{
     position: absolute;
-    width: 55%;
-    right: 0;
+    width: 30.3%;
     top: 0;
-    bottom: 0;
-    left: 0;
+    left: 120px;
+   right: 0;
     
     
 
+}
+img{
+    width: 100%;
+    
 }
 .card-text{
     position: absolute;
