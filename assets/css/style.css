@@ -1,5 +1,5 @@
 *{ 
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
    margin: 0;
     
 }
@@ -441,7 +441,7 @@ align-items: center;
 }
 .card{
 
-    width: 33.3%;
+    width: 23.3%;
     height:21.5rem;
     position: relative;
  
