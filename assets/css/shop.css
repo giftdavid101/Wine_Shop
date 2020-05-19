@@ -1,83 +1,339 @@
-.menuu{
-    width: 15%;
-    display: flex;
-    justify-content: space-evenly;
-  align-items: center;
-    margin: 26px 0;
-    font-size: 15px;
-    letter-spacing: 4px;
-    font-family: 'Comic Neue', cursive;
-    font-weight: 0;
+/* codes for shop page */
+*{
+    outline: 1px solid red;
 }
+html, body{
+    height: 100vh;
+}
+.mainn{
+    
+    width: 100%;
+    background-color: rgb(43, 43, 51);
+
+}
+
 .navv{
     width: 100%;
    margin: auto;
    display: flex;
    justify-content: space-between;
    align-content: center;
-   color: white;
+   color: rgb(216, 215, 213);
    text-transform: uppercase;
-   border-bottom: 1px solid;
+   border-bottom: 1px solid white;
+}
+.menuu{
+    width: 12%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 0;
+    
+}
+.two-box{
+    width: 100%;
+   background-color:transparent;
+   display: flex;
+   justify-content: space-around;
+}
+.aside{
+    width: 25%;
+    margin-top: 30px;
+    background-color: transparent;
+    
+}
+.central{
+    width: 85%;
+    margin-top: 30px;
+    background-color: transparent;
+    
+    
+}
+.sub1{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    
+}
+.btn{
+    width: 28%;
+    height: 1.2rem;
+    border: 2px solid white;
+    margin: 5px;
+    padding: 5px 0;
+    text-align: center;
+    color: rgb(216, 215, 213);
+
+}
+.spc{
+    width: 28%;
+    height: 1.5rem;
+    margin: 5px;
+    padding: 5px 0;
+    text-align: center;
+    color: rgb(216, 215, 213);
+    
+
+    
+}
+.caps{
+ width: 100%;
+ text-transform: uppercase;
+ margin-top: 15px;
+ margin-bottom:5px;
+ letter-spacing: 2px;
+ color: rgb(216, 215, 213);
+ font-family: 'Montserrat', sans-serif;
+ letter-spacing: 3px;
+ font-weight: lighter;
+ 
+
+}
+.sub2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    color: rgb(216, 215, 213);
+}
+.input1{
+    border-top: none;
+    border-left: none;
+    border-right: none ;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+   
+}
+.big-btn{
+    width: 40%;
+    background-color: rgb(145, 20, 50);
+    color: whitesmoke;
+    border: none;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 40px;
+    text-align: center;
+}
+/* codes for main box */
+.main-box{
+
+ width: 70%;
+background-color:transparent;
+margin-top: 30px;
+}
+
+.capss{
+   
+    width: 30%;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ color: rgb(216, 215, 213);
+ font-family :'Montserrat', sans-serif;
+ letter-spacing: 3px;
+ font-size: 12px;
+ font-weight: lighter;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    
+  
+
+}
+.capse{
+    width: 100%;
+    text-transform: uppercase;
+    
+    margin-bottom:15px;
+    letter-spacing: 2px;
+    color: rgb(216, 215, 213);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+.sub-head{
+width: 35%;
+text-transform: uppercase;
+display: flex;
+justify-content: space-between;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.card{
+
+    width: 23.3%;
+    height:21.5rem;
+    position: relative;
+ 
+}
+.pnk{
+    
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    background-color: rgb(223, 144, 157);
+    font-family:'Nanum Gothic', 'sans-serif';
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    top:  100px;
+
+}
+.gry{
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    background-color: rgb(182, 162, 165);
+    font-family:'Nanum Gothic', 'sans-serif';
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    top:  100px;
+  
+}
+.mid-color{
+   width: 100%;
+   height: 5rem;
+   position: absolute;
+ background-color: rgb(145, 20, 50);   
+ position: absolute;
+
+top:  100px;
+/* top: 0; */
+/* right: 0; */
+/* bottom:0; */
+/* left: 0; */
+
+
+}
+.price{
+    width: 20%;
+    margin: 30px 5px;
+    text-align: center;
+    color: rgb(216, 215, 213);
+    
+}
+.photo{
+    width: 100%;
+    position: absolute;
+    
+}
+.image-div{
+    position: absolute;
+    width: 30.3%;
+    top: 0;
+    left: 120px;
+   right: 0;
+    
+    
+
+}
+img{
+    width: 100%;
+    
+}
+.card-text{
+    position: absolute;
+    bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(216, 215, 213);
+    font-family :'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    
+}
+.p-spc{
+    margin-bottom: 7px;
+    
+    
    
 }
 hr{
-    width: 100%;
-    font-weight: bold;
-    font-size: 1px;
-    margin: 0;
+ width: 30%;  
+ position: absolute;
+ bottom: 50px;
+ text-align: left;
+   
 }
-.mainn{
-    width: 100%;
-    height:50rem;
-    position: relative;
-    background-color: rgb(12, 8, 8);
-  
-}
-.two-box{
+.txt{
     display: flex;
+    position: absolute;
+    bottom: 0;
+    color: rgb(216, 215, 213);
+    text-transform: capitalize;
+    
+   
+}
 
-}
-.aside{
-    width: 30%;
-    background-color: yellowgreen;
-   
-}
-.top-text{
-    text-transform: uppercase;
-   
+.spcc{
+    width: 28%;
+    height: 1.5rem;
+    margin:5px;
+    padding: 5px 0;
     text-align: center;
-    font-family:'Comic Neue', cursive; 
-   letter-spacing: 4px;
+    color: rgb(216, 215, 213);
+    font-family: 'Neuton', serif;
+}
 
-}
-.first-box{
-    
+
+/* wine cards */
+
+.wine-card {
+    position: relative;
+    width: 184px;
+    height: 229px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.wine-card .heart {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wine-card .card-background{
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(145, 20, 50);
+}
+
+.wine-card .card-background .price{
+    display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    
-}
-.first-sub{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.btn {
-    border: 2px solid white;
-    padding: 3px;
-    margin: 4px 5px;
+    width: 90%;
+    font-family:'Nanum Gothic', 'sans-serif';
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
   
 }
-.space{
-    margin: 4px;
+
+.wine-card .image {
+    z-index: 2;
+    position: absolute;
+    right: 20px;
 }
-.thirdbox{
-    text-transform: uppercase;
-   
-    font-family:'Comic Neue', cursive; 
- 
-   letter-spacing: 4px;
+
+.wine-card .image img{
+    width: 60px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
 }
