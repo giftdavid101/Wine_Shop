@@ -41,18 +41,21 @@ html, body{
    justify-content: space-around;
 }
 .aside{
-    width: 25%;
+    width: 18%;
     margin-top: 30px;
-    background-color: transparent;
+  
     
 }
 .central{
-    width: 85%;
-    margin-top: 30px;
-    background-color: transparent;
-    
-    
+    font-size: 13px;
+
+
 }
+    
+   
+    
+    
+
 .sub1{
     display: flex;
     align-items: center;
@@ -64,10 +67,11 @@ html, body{
     width: 28%;
     height: 1.2rem;
     border: 2px solid white;
-    margin: 5px;
+    margin: 15px;
     padding: 5px 0;
     text-align: center;
     color: rgb(216, 215, 213);
+    font-size: 10px;
 
 }
 .spc{
@@ -77,6 +81,7 @@ html, body{
     padding: 5px 0;
     text-align: center;
     color: rgb(216, 215, 213);
+    font-size: 10px;
     
 
     
@@ -90,6 +95,7 @@ html, body{
  color: rgb(216, 215, 213);
  font-family: 'Montserrat', sans-serif;
  letter-spacing: 3px;
+ font-size: 13px;
  font-weight: lighter;
  
 
@@ -97,7 +103,7 @@ html, body{
 .sub2{
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 5px;
     color: rgb(216, 215, 213);
 }
 .input1{
@@ -113,15 +119,14 @@ html, body{
     background-color: rgb(145, 20, 50);
     color: whitesmoke;
     border: none;
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 40px;
     text-align: center;
 }
 /* codes for main box */
 .main-box{
 
- width: 70%;
+ width: 60%;
 background-color:transparent;
 margin-top: 30px;
 }
