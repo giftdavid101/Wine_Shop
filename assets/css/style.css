@@ -204,7 +204,7 @@ ul, .fnl,li{
     font-weight: lighter;
 }
 .and{
-    position: absolute;
+    /* position: absolute; */
     top: 444px;
     left: 129px;
     transform: rotate(270deg);
@@ -488,7 +488,7 @@ p{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
+@media only screen and (max-width: 7git 00px) {
+    .text {font-size: 11px;}
+    .foot {height: 80%;}
   }
-
