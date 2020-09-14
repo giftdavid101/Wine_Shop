@@ -1,0 +1,45 @@
+@media only screen and (min-width:699px) and (max-width: 1440px) {
+ .exploremore-mobile{
+     display: none;
+ }   
+}
+
+
+@media only screen and (max-width: 700px){
+    .menu, .up, .menu, .middle, .foott {
+        display: none;
+    }
+    .exploremore-mobile{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .mini-exploremore{
+        width: 80%;
+        margin: auto;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+    }
+    .fnl{
+        margin: 20px 0;
+    }
+    .but{
+       display: flex;
+       justify-content: center;
+       padding: 40px;
+       color: white;
+    }
+     .fot {
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: 'Josefin Sans', sans-serif;
+     }
+
+}
