@@ -1,10 +1,13 @@
+@media only screen and (min-width:1440px) and (max-width: 1920px) {
+    .exploremore-mobile{
+        display: none;
+    }   
+   }
 @media only screen and (min-width:699px) and (max-width: 1440px) {
  .exploremore-mobile{
      display: none;
  }   
 }
-
-
 @media only screen and (max-width: 700px){
     .menu, .up, .menu, .middle, .foott {
         display: none;
