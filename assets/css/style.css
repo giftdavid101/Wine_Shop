@@ -240,6 +240,7 @@ ul, .fnl,li{
   border: 1px solid white;
   font-size: larger;
   padding: 0.7rem;
+
 }
 
 .exploremore{
@@ -277,7 +278,13 @@ ul, .fnl,li{
 }
 
 /* explore more page */
-
+.main2{
+    height: 100vh;
+    background-image:linear-gradient(rgba(110, 95, 95, 0.068)), url(../img/grape.jpg);
+    background-size: cover;
+    background-color: gray;
+  
+}
 .con{
   width: 26%;
     height: 51vh;
@@ -285,6 +292,14 @@ ul, .fnl,li{
    display: flex;
    justify-content:space-around;
    align-items: center;
+}
+.secone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: tomato;
+
 }
 .slide-containerr{
     display: flex;
@@ -309,13 +324,19 @@ ul, .fnl,li{
 .foott{
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between ;
+
     align-items: center;
     color: rgb(216, 215, 213);
     font-family: 'Josefin Sans', sans-serif;
+
 }
 .fot{
-    color: white;
+    color: rgb(243, 219, 219);
+
+}
+.a{
+    margin: 20px;
 }
     /* transform: rotate(270deg); */
 
