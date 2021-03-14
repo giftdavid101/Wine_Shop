@@ -3,7 +3,10 @@
    margin: 0;
     
 }
-
+a{
+    text-decoration: none;
+color: white;
+}
 
 html, body {
     margin: 0;
@@ -48,7 +51,8 @@ html, body {
     justify-content: center;
 }
 .list li {
-    margin: 0 5px
+    margin: 0 5px;
+
 }
 .nav{
   width: 100%;
@@ -60,7 +64,9 @@ html, body {
    text-transform: uppercase;
 }
 
-
+.list-div{
+    border-bottom: 1px solid white;
+}
 
 ul, .fnl,li{
     margin: auto;
@@ -99,7 +105,37 @@ ul, .fnl,li{
     color: rgb(216, 215, 213);
   display: flex;
   justify-content:space-between ;
+
  
+}
+.slide-container{
+    position: relative;    
+    
+}
+.slide-pos{
+    width: 100%;
+    /* position: absolute; */
+  
+}
+.active{position: relative;
+   top: 50%;
+
+    transform: translate(-50%);
+    animation: animateslide 2s linear infinite;
+}
+@keyframes animateslide{
+    0%{
+        top:0%;
+        left:0%;
+
+    }
+   
+    25%{
+        top:0;
+        left:50%;
+       
+        
+    }
 }
 
 .smel{
@@ -147,6 +183,9 @@ ul, .fnl,li{
 
 .dot_active {
     width: 15px;
+    height: 4px;
+    background-color: white;
+    margin: 0 16px;
 }
 
 .wine_position {
@@ -160,6 +199,10 @@ ul, .fnl,li{
     bottom: 0;
     left: 0;
     right: 0;
+
+}
+a:hover{
+  color: yellow;
 
 }
 
@@ -240,6 +283,7 @@ ul, .fnl,li{
   border: 1px solid white;
   font-size: larger;
   padding: 0.7rem;
+    color: white;
 
 }
 
@@ -280,26 +324,37 @@ ul, .fnl,li{
 /* explore more page */
 .main2{
     height: 100vh;
-    background-image:linear-gradient(rgba(110, 95, 95, 0.068)), url(../img/grape.jpg);
+    background-image: url(../img/grape.jpg);
     background-size: cover;
     background-color: gray;
   
 }
 .con{
-  width: 26%;
-    height: 51vh;
+  width: 28%;
+  height: 80vh;
     background-color: #2b2b33;
    display: flex;
    justify-content:space-around;
    align-items: center;
+}
+.grape-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    margin: 1rem;
 }
 .secone{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-    background-color: tomato;
-
+}
+.midle{
+ width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
 }
 .slide-containerr{
     display: flex;
@@ -307,8 +362,14 @@ ul, .fnl,li{
     transform: rotate(270deg);
     justify-content: space-between;
 }
-.love-with-grape{
-    width: 80%;
+.love-with-grape {
+    width: 40%;
+    color: rgb(216, 215, 213);
+  
+}
+.filwg {
+    width: 40%;
+    margin: 1rem;
 }
 
 .slide-poss{
@@ -320,7 +381,9 @@ ul, .fnl,li{
      width: 10%;
      height: 0.2vh;
      background-color: white;
+     margin: 0.5rem;
 }
+
 .foott{
     width: 100%;
     display: flex;
@@ -331,6 +394,7 @@ ul, .fnl,li{
     font-family: 'Josefin Sans', sans-serif;
 
 }
+
 .fot{
     color: rgb(243, 219, 219);
 
@@ -355,17 +419,17 @@ right: 600px;
 
 } */
 
+
 .w{
     background-color: transparent;
     height: 5vh;
-    border-color: 5px solid black;
+    border: 5px solid black;
     color: rgb(255, 255, 255);
     position: absolute;
     top: 750px;
     right: 20px;
-    
-
-}@keyframes slide{
+}
+ @keyframes slide{
   20%{ background-image: linear-gradient(rgba(95, 93, 88, 0.137), rgba(110, 95, 95, 0.068)),url(../img/one.jpg);}
   50%{ background-image: linear-gradient(rgba(95, 93, 88, 0.137), rgba(110, 95, 95, 0.068)),url(../img/three.jpg);}
   80%{ background-image: linear-gradient(rgba(95, 93, 88, 0.137), rgba(110, 95, 95, 0.068)),url(../img/four.jpg);}
@@ -379,12 +443,12 @@ right: 600px;
     text-decoration: none;
     
 }
-.mid-colorr{
+.mid-color{
     width: 20%;
     height: 5rem;
-  background-color: rgb(145, 20, 50);   
-  position: absolute;
-   top: 110px;
+    background-color: rgb(145, 20, 50);
+    position: absolute;
+    top: 110px;
 }
 .side{
     margin-top: 30px;
@@ -507,6 +571,7 @@ p{
     justify-self: center;
     align-items: center;
 }
+
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 700px) {

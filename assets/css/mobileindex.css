@@ -9,7 +9,7 @@
  }   
 }
 @media only screen and (max-width: 700px){
-    .menu, .up, .menu, .middle, .foott {
+    .menu, .up, .menu, .midle, .foott {
         display: none;
     }
     .exploremore-mobile{

@@ -11,12 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comic+Neue|Nanum+Gothic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Caudex|Comic+Neue|Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="uikit/dist/js/uikit-icons.min.js"></script>
     <script src="https://kit.fontawesome.com/55fb93ce8e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <div class="main">
 
         <div class="wine_position">
@@ -39,9 +41,9 @@
 
             <div class="list">
 
-                <li> <a class="fnl" href="./index.html"> About</a></li>
-                <li> <a class="fnl" href="../pages/shop.html"> Shop</a></li>
-                <li> <a class="fnl" href="#about"> Articles</a></li>
+               <div class="list-div"> <a class="fnl" href="./index.html"> <li>About</li></a></div>
+                <div><li> <a class="fnl" href="../pages/shop.html"> Shop</a></li></div>
+               <div><li> <a class="fnl" href="#about"> Articles</a></li></div> 
 
             </div>
 
@@ -69,25 +71,26 @@
 
         <div class="middle">
 
+
             <div class="slide-container">
-                <div class="slide-pos">
+                <div class="slide-pos active">
+                  <span class=" dot_active"></span>
+                   <span class="slide-text">taste</span>
+                </div>
+                <div class="slide-pos b">
                     <span class="dot"></span>
                     <span class="slide-text">smell</span>
                 </div>
 
-                <div class="slide-pos">
-                    <span class="dot dot_active"></span>
-                    <span class="slide-text">taste</span>
-                </div>
 
-                <div class="slide-pos">
+
+                <div class="slide-pos c">
+
                     <span class="dot"></span>
                     <span class="slide-text">love</span>
                 </div>
             </div>
-
-
-
+            
         </div>
 
 
@@ -108,7 +111,11 @@
 
             </div>
 
-            <div class="cw"><a>choose wine <i class="fas fa-angle-right"></i></a> </div>
+            <span class="cw">
+                <a class="scw" href="./pages/shop.html">choose wine</a> <i class="fas fa-angle-right"></i>
+
+            </span>
+
             <div class="slide-container">
                 <div class="slide-pos">
                     <span class="dot"></span>
@@ -131,6 +138,7 @@
 
 
     </div>
+
 
 </body>
 
