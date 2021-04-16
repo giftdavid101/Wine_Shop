@@ -330,7 +330,7 @@ a:hover{
   
 }
 .con{
-  width: 28%;
+  width: 38%;
   height: 80vh;
     background-color: #2b2b33;
    display: flex;
@@ -368,7 +368,7 @@ a:hover{
   
 }
 .filwg {
-    width: 40%;
+    /* width: 40%; */
     margin: 1rem;
 }
 
